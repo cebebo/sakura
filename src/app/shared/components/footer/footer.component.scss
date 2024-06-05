@@ -1,0 +1,46 @@
+.initialize {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.maxwidth {
+    width: 1440px;
+}
+
+.container {
+    padding-left: 160px;
+    padding-right: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #0A141E;
+    height: 144px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    >a:hover {
+        filter: drop-shadow(0px 0px 6px white);
+    }
+}
+
+.footer-icons {
+    height: 40px;
+    width: 40px;
+    padding-left: 15px;
+}
+
+.footer-logo {
+    height: 44px;
+}
+
+.footer-logo-mobile {
+    height: 40px;
+    width: 40px;
+    display: none;
+}
+
+
